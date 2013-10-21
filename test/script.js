@@ -1,0 +1,1 @@
+var pi = 3.14; function foo() {}; function bar() { alert('b'); }; bar();
