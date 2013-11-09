@@ -1,26 +1,29 @@
 {
-    "name":"webant-handler-js",
-    "author":"A Kazim",
-    "description":"A handler for the webant module for javascript requires.",
-    "keywords":[
-        "ant",
-        "javascript",
-        "webant"
-    ],
-    "version":"0.3.0",
-    "dependencies":{
-        "uglify-js": "2.4.x"
-    },
-    "devDependencies":{
-        "test":"0.6.x"
-    },
-    "repositories":{
-        "type":"git",
-        "url":"git://github.com/theakman2/node-modules-webant-handler-js.git"
-    },
-    "main":"./lib/index.js",
-    "scripts":{
-        "test":"node ./test/index.js"
-    },
-    "license":"MIT"
+  "name": "webant-handler-js",
+  "author": {
+    "name": "A Kazim"
+  },
+  "description": "A handler for the webant module for javascript requires.",
+  "keywords": [
+    "ant",
+    "javascript",
+    "webant"
+  ],
+  "version": "0.4.0",
+  "dependencies":{
+    "js-string-escape":"1.0.x"
+  },
+  "devDependencies": {
+    "extend":"1.2.x",
+    "test": "0.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theakman2/node-modules-webant-handler-js.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "license": "MIT"
 }
