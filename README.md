@@ -31,6 +31,6 @@ var foo = require("../lib/foo.js");
 foo.sayHello();
 ````
 
-## Tests
+## Tests [![Build Status](https://travis-ci.org/theakman2/node-modules-webant-handler-js.png?branch=master)](https://travis-ci.org/theakman2/node-modules-webant-handler-js)
 
     $ npm test
